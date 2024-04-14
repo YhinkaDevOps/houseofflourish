@@ -57,22 +57,22 @@ const Footer = () => {
         {/* Products*/}
         <div className="pt-2 flex flex-col gap-2 items-start md:justify-center md:items-center">
           <button className="font-bold">Projects</button>
-          <Link href="/contact">
+          <Link href="/water-production">
             <button className="text-sm hover:opacity-70 flex items-center flex-shrink-0 hover:underline">
               Water Production
             </button>
           </Link>
-          <Link href="/contact">
+          <Link href="/agriculture">
             <button className="text-sm hover:opacity-70 flex items-center flex-shrink-0 hover:underline">
               Agriculture
             </button>
           </Link>
-          <Link href="/contact">
+          <Link href="/education">
             <button className="text-sm hover:opacity-70 flex items-center flex-shrink-0 hover:underline">
               Education
             </button>
           </Link>
-          <Link href="/contact">
+          <Link href="/real-estate">
             <button className="text-sm hover:opacity-70 flex items-center flex-shrink-0 hover:underline">
               Real Estate
             </button>
@@ -81,17 +81,17 @@ const Footer = () => {
         {/* Company*/}
         <div className="pt-2 flex flex-col gap-2 items-start md:justify-center md:items-center">
           <button className="font-bold">Company</button>
-          <Link href="/contact">
+          <Link href="/">
             <button className="text-sm hover:opacity-70 flex items-center flex-shrink-0 hover:underline">
               Home
             </button>
           </Link>
-          <Link href="/contact">
+          <Link href="/about">
             <button className="text-sm hover:opacity-70 flex items-center flex-shrink-0 hover:underline">
               About
             </button>
           </Link>
-          <Link href="/contact">
+          <Link href="/contact-us">
             <button className="text-sm hover:opacity-70 flex items-center flex-shrink-0 hover:underline">
               Contacts
             </button>

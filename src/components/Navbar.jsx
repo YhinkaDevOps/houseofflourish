@@ -51,19 +51,19 @@ const Navbar = () => {
                   Projects
                 </MenuButton>
                 <MenuList className="text-sm">
-                  <Link href="/vegetables-and-fruits">
+                  <Link href="/water-production">
                     {" "}
                     <MenuItem>Water production</MenuItem>
                   </Link>
-                  <Link href="/meat-poultry">
+                  <Link href="/agriculture">
                     {" "}
                     <MenuItem>Agriculture</MenuItem>
                   </Link>
-                  <Link href="/wine-and-liquor">
+                  <Link href="/education">
                     {" "}
                     <MenuItem>Education</MenuItem>
                   </Link>
-                  <Link href="/groceries">
+                  <Link href="/real-estate">
                     {" "}
                     <MenuItem>Real Estate</MenuItem>
                   </Link>
@@ -104,19 +104,19 @@ const Navbar = () => {
                       PROJECTS
                     </MenuButton>
                     <MenuList>
-                      <Link href="/vegetables-and-fruits">
+                      <Link href="/water-production">
                         {" "}
                         <MenuItem>Water production</MenuItem>
                       </Link>
-                      <Link href="/meat-poultry">
+                      <Link href="/agriculture">
                         {" "}
                         <MenuItem>Agriculture</MenuItem>
                       </Link>
-                      <Link href="/wine-and-liquor">
+                      <Link href="/education">
                         {" "}
                         <MenuItem>Education</MenuItem>
                       </Link>
-                      <Link href="/groceries">
+                      <Link href="/real-estate">
                         {" "}
                         <MenuItem>Real Estate</MenuItem>
                       </Link>

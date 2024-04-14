@@ -25,8 +25,8 @@ const Contact = () => {
   }
   return (
     <div className="min-h-screen pt-[79px]">
-      <div className="contact-bg text-white bg-[#f6f6f6] py-12 px-4 md:py-16 lg:px-[50px] xl:px-[120px] flex flex-col gap-3 ">
-        <h6 className="text-2xl font-semibold px-2">CONTACT US</h6>
+      <div className="about-bg text-white bg-[#f6f6f6] py-12 px-4 md:py-16 lg:px-[50px] xl:px-[120px] flex flex-col gap-3 ">
+        <h6 className="text-center text-5xl font-semibold px-2">CONTACT US</h6>
         <span className="flex gap-x-3 text-sm items-center px-2">
           <Link className="hover:text-[#900C3F]" href="/">
             Home
@@ -77,21 +77,22 @@ const Contact = () => {
         <div className="contact-form border shadow-lg shadow-[rgb(4,12,22)] flex flex-col gap-2 p-7">
           <h3 className="text-[#000000] text-2xl font-semibold">Visit Us</h3>
           <div>
-            <p>Ikanna Oluwo Village</p>
-            <p>Ajura, Obafemi Owode LGA</p>
-            <p>Ogun State</p>
+            <p>Ogunfayo Estate, Km 36 </p>
+            <p>Lekki-Epe Expway</p>
+            <p>Eputu Bus Stop, Ibeju Lekki</p>
+            <p>Lagos State</p>
             <p>Nigeria</p>
           </div>
 
           <h3 className="text-[#000000]] text-2xl font-semibold">Phone Us</h3>
           <div>
             <p>Customer Service:</p>
-            <p>08023049030</p>
+            <p>08083760044</p>
           </div>
 
           <h3 className="text-[#000000] text-2xl font-semibold">Email Us</h3>
           <div>
-            <p>atobafarmsltd@gmail.com</p>
+            <p>sales@houseofflourish.com.ng</p>
           </div>
         </div>
       </div>

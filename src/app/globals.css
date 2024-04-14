@@ -103,9 +103,42 @@
   background-size: cover;
   background-position: center;
 } */
-.about-bg{
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+.about-bg {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.water-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://houseofflourish.com.ng/wp-content/uploads/2024/02/buttle_prod3.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.agriculture-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://leadership.ng/wp-content/uploads/2022/12/RS2085_food-agriculture-topic.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.education-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://houseofflourish.com.ng/wp-content/uploads/2023/06/pexels-photo-3059691.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.real-estate-bg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.businessday.ng/2021/05/Real-estate.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .mySwiper {
@@ -163,7 +196,12 @@ label {
   object-fit: cover;
 }
 
+.card-image_ {
+  width: 100%;
+  aspect-ratio: 1.5;
+  object-fit: cover;
+}
+
 .service-phrase {
   font-family: "Roboto", sans-serif;
 }
-
