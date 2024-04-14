@@ -22,7 +22,7 @@ const Education = () => {
     {
       id: 3,
       imageUrl:
-        "http://www.africacsplateforme.org/img/adult-education-africa.png",
+        "https://panafricanvisions.com/wp-content/uploads/2019/12/cover_photo.jpeg",
       header: "Adult Education Programs",
       text: "Offer adult education programs aimed at helping individuals improve their literacy, numeracy, and employability skills. Provide flexible learning options, including evening classes, online courses, and personalized tutoring, to accommodate diverse learning needs.",
     },
