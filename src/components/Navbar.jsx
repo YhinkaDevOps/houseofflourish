@@ -100,7 +100,7 @@ const Navbar = () => {
                 </li>
                 <li className="text-white hover:bg-white font-medium hover:text-black rounded-lg p-2">
                   <Menu>
-                    <MenuButton className=" hover:text-black ">
+                    <MenuButton className=" hover:text-black block">
                       PROJECTS
                     </MenuButton>
                     <MenuList>
