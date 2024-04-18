@@ -92,15 +92,15 @@ const Navbar = () => {
           <div className="bg-[#222222] md:hidden">
             <div className="px-2 pt-2 pb-2 space-y-1 sm:px-3">
               <ul className="list-none space-y-2">
-                <li className="text-white hover:bg-white font-medium hover:text-black rounded-lg p-2">
+                <li className="w-full text-center text-white hover:bg-white font-medium hover:text-black rounded-lg p-2">
                   <Link href="/">HOME</Link>
                 </li>
-                <li className="text-white hover:bg-white font-medium hover:text-black rounded-lg p-2">
+                <li className="text-center text-white hover:bg-white font-medium hover:text-black rounded-lg p-2">
                   <Link href="/about">ABOUT</Link>
                 </li>
                 <li className="text-white hover:bg-white font-medium hover:text-black rounded-lg p-2">
                   <Menu>
-                    <MenuButton className=" hover:text-black block">
+                    <MenuButton className="w-full hover:text-black block">
                       PROJECTS
                     </MenuButton>
                     <MenuList>
@@ -123,7 +123,7 @@ const Navbar = () => {
                     </MenuList>
                   </Menu>
                 </li>
-                <li className="text-white hover:bg-white font-medium hover:text-black rounded-lg p-2">
+                <li className="text-center text-white hover:bg-white font-medium hover:text-black rounded-lg p-2">
                   <Link href="/contact-us">CONTACT US</Link>
                 </li>
               </ul>
