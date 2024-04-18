@@ -38,7 +38,7 @@ const Agriculture = () => {
   return (
     <div className="min-h-svh pt-[79px]">
       <div className="agriculture-bg text-white bg-[#f4f5f6] py-12 px-4 md:py-16 md:px-[20px] lg:px-[50px] xl:px-[120px] flex flex-col gap-7 ">
-        <h6 className="text-center text-5xl font-semibold px-2">AGRICULTURE</h6>
+        <h6 className="text-center text-5xl font-semibold px-1 md:px-2">AGRICULTURE</h6>
         <span className="flex gap-x-3 items-center px-2">
           <Link className="hover:text-[#900C3F]" href="/">
             Home
