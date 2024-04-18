@@ -10,7 +10,7 @@ const WhyUS = () => {
   return (
     <div className="min-h-[500px] px-4 lg:px-0 py-20 bg-[#f6f6f6]">
       <div className="max-w-[1100px] mx-auto">
-        <h6 className="text-center text-5xl service-header mb-3">
+        <h6 className="text-center text-5xl font-bold mb-3">
           WHY CHOOSE US
         </h6>
 

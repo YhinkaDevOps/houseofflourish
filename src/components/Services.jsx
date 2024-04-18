@@ -38,7 +38,7 @@ const Services = () => {
   return (
     <div className="bg-[#f4f5f6] min-h-[300px] mx-auto pt-20 pb-16 flex flex-col ">
       <div className="px-4 lg:px-0">
-        <h6 className="text-center text-5xl service-header text-[#101218]">
+        <h6 className="text-center text-5xl font-bold text-[#101218]">
           WHAT WE DO!
         </h6>
 
@@ -56,8 +56,8 @@ const Services = () => {
                 className="card-image rounded-3xl p-2"
               />
               <div className="flex flex-col gap-3 md:gap-6 p-2">
-                <h3 className="service-header font-semibold text-2xl">{card.header}</h3>
-                <p className="text-[#494b51] text-base service-header">
+                <h3 className="font-bold text-2xl">{card.header}</h3>
+                <p className="text-[#494b51] text-base">
                   {card.text}
                 </p>
               </div>

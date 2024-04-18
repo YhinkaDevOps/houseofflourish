@@ -16,7 +16,7 @@ const About = () => {
       </div>
 
       <div className="text-[#000000] px-4 md:px-0 mx-auto max-w-[1100px] py-10 flex flex-col gap-4">
-        <h6 className="text-3xl service-header">
+        <h6 className="text-3xl font-semibold">
           10 Years Of Manufacturing Excellence With Quality At It's Best!
         </h6>
         <p className="text-justify">

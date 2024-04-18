@@ -4,7 +4,7 @@ import Link from "next/link";
 const AboutUs = () => {
   return (
     <div className="about-bg about-font py-20 text-[#ffffff]">
-      <h4 className="service-header text-center text-5xl">ABOUT US</h4>
+      <h4 className="font-bold text-center text-5xl">ABOUT US</h4>
       <p className="px-4 md:px-0 text-center max-w-[1000px] mx-auto mt-7 font-sans">
         With over a decade of expertise in manufacturing, agriculture, real
         estate, and education, House of Flourish Nigeria Limited is a leading
