@@ -94,15 +94,15 @@
 
 /* Products styling */
 
-/* .products-bg,
-.about-bg,
-.mission-bg,
-.contact-bg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://www.bofarmsltd.com/media/home-slider/slide-2.jpg");
-  background-size: cover;
-  background-position: center;
-} */
+.products-bg {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
 .about-bg {
   background: rgb(2, 0, 36);
   background: linear-gradient(
@@ -134,7 +134,7 @@
   background-position: center;
 }
 
-.real-estate-bg{
+.real-estate-bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://cdn.businessday.ng/2021/05/Real-estate.jpg");
   background-size: cover;
